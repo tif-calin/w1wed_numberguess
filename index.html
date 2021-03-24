@@ -30,14 +30,14 @@
                 You have 4 chances to guess what that number is. 
             </p>
 
-            <div class="wrapper-h game" id="game">
-                <span>Guesses left:</span>
-                <div id="lives"></div>
-                <div id="secret-number">?</div>
-                <div class="wrapper-v">
-                    <input type="number">
+            <div class="wrapper-v hidden" id="game">
+                <div id="guess-result">hmm?</div>
+                <div class="wrapper-h">
+                    <input min="1" max="20" type="number" id="input-guess">
                     <button id="button-guess">guess</button>
                 </div>
+                <span>Guesses left:</span>
+                <div id="lives"></div>
             </div>
 
             <button id="button-main">Play game</button>
