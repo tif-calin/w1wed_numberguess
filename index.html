@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Alchemy Doc</title>
+    <title>NumberGuess</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
@@ -21,10 +21,26 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
             <h2>
-                Welcome to Alchemy Bootstrap!
+                Welcome to NumberGuess!
             </h2>
+
+            <p class="game-rules">
+                NumberGuess is a simple game where you are given a random number between 1 and 20 (inclusive). 
+                You have 4 chances to guess what that number is. 
+            </p>
+
+            <div class="wrapper-h game" id="game">
+                <span>Guesses left:</span>
+                <div id="lives"></div>
+                <div id="secret-number">?</div>
+                <div class="wrapper-v">
+                    <input type="number">
+                    <button id="button-guess">guess</button>
+                </div>
+            </div>
+
+            <button id="button-main">Play game</button>
         </section>
     </main>
     <footer>
