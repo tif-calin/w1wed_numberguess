@@ -18,7 +18,7 @@ const pastScores = [];
 const didLose = () => {
     if (!gameState['livesLeft']) {
         btnGuess.disabled = true;
-        guessResult.textContent = "You lost :(";
+        guessResult.textContent = 'You lost :(';
         btnPlay.classList.remove('hidden');
     }
 };
