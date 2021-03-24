@@ -1,1 +1,69 @@
 /* add home page styles here */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    line-height: 1.5rem;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+}
+
+button {
+    margin: auto 1rem;
+}
+
+#button-main {
+    margin-top: 1rem;
+}
+
+.wrapper-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#game {
+    border: solid 3px gainsboro;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+#game span {
+    margin-top: 1rem;
+}
+
+#guess-result {
+    padding: 2.5rem;
+    width: 100%;
+    font-weight: 900;
+    font-size: 5rem;
+    height: 10rem;
+    text-align: center;
+    text-justify: center;
+}
+
+#lives {
+    margin-left: 1rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    height: 1rem;
+}
