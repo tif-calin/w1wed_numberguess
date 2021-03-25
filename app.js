@@ -43,7 +43,7 @@ const didLose = () => {
 btnPlay.addEventListener('click', () => {
     // set state
     gameState['livesLeft'] = 4;
-    gameState['correctAnswer'] = Math.ceil(Math.random() * 10);
+    gameState['correctAnswer'] = Math.ceil(Math.random() * 20);
 
     // hide button, show game
     guessResult.textContent = '';
